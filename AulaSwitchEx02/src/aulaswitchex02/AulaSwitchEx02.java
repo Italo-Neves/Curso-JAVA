@@ -13,7 +13,7 @@ public class AulaSwitchEx02 {
         n1 = input.nextInt();
         System.out.println("Digite o segundo número ");
         n2 = input.nextInt();
-        System.out.println("\n Digite qual operção você deseja reaizar"
+        System.out.println("\n Digite qual operação você deseja reaizar"
                          + "\n '1' para somar "
                          + "\n '2' para subtrair"   
                          + "\n '3' para multiplicar "
@@ -34,7 +34,7 @@ public class AulaSwitchEx02 {
                 break;
             case 4:
                 calc = n1/n2;
-                System.out.println("O valor de "+n1+" / "+n2+" = "+calc);
+                System.out.printf("O valor de  %d / %d = %d",n1,n2,calc);
                 break;
                         
         }

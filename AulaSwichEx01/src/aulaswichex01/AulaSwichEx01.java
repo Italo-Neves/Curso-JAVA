@@ -2,10 +2,6 @@ package aulaswichex01;
 
 import java.util.Scanner;
 
-/**
- *
- * @author keldor
- */
 public class AulaSwichEx01 {
 
     public static void main(String[] args) {
@@ -34,6 +30,9 @@ public class AulaSwichEx01 {
             case 1:
                 System.out.println("Hoje é Domingo");
                 break;
+                
+            default:
+                System.out.println("Esse dia não exite");
         
         }
         
