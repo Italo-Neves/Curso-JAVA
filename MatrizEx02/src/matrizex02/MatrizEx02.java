@@ -1,10 +1,10 @@
-package ex3;
+package matrizex02;
 
 import java.util.Random;
 
-public class ex3 {
+public class MatrizEx02 {
     public static void main(String[] args) {
-        int [][] numerosAleatorios = new int [10][10];
+    int [][] numerosAleatorios = new int [10][10];
 
         Random numeroRandom = new Random(); // classe para gerar números aleatórios
 
@@ -23,27 +23,28 @@ public class ex3 {
             System.out.println();
         }
 
-        int maiorC7 = 0;
-        int menorC7 = 0;
-        int coluna7 = 7;
-        //percorre a coluna 7 da matriz
-        for(int i=0; i<numerosAleatorios.length; i++){
+        int maiorL5 = 0;
+        int menorL5 = 0;
+        int linh5 = 5;
+        //percorre a linha 5 da matriz
+        for(int i=0; i<numerosAleatorios[linh5].length; i++){
 
             // seta os primeiros valores como padrões iniciais
             if(i==0){
-                maiorC7 = numerosAleatorios[i][coluna7];
-                menorC7 = numerosAleatorios[i][coluna7];
+                maiorL5 = numerosAleatorios[linh5][i];
+                menorL5 = numerosAleatorios[linh5][i];
             }
 
-            if(numerosAleatorios[i][coluna7] > maiorC7){
-                maiorC7 = numerosAleatorios[i][coluna7];
+            if(numerosAleatorios[linh5][i] > maiorL5){
+                maiorL5 = numerosAleatorios[linh5][i];
             }
-            if(numerosAleatorios[i][coluna7] < menorC7){
-                menorC7 = numerosAleatorios[i][coluna7];
+            if(numerosAleatorios[linh5][i] < menorL5){
+                menorL5 = numerosAleatorios[linh5][i];
             }
         }
 
-        System.out.println("\nMaior valor da coluna 7: "+maiorC7);
-        System.out.println("Menor valor da coluna 7: "+menorC7);
+        System.out.println("\nMaior valor da linha 5: "+maiorL5);
+        System.out.println("Menor valor da linha 5: "+menorL5);
     }
+    
 }

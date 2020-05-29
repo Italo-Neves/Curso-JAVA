@@ -1,3 +1,5 @@
+package exemplo_matriz_for;
+
 public class exemplo_matriz_for {
     public static void main(String[] args) {
         int [][] numerosAleatorios = new int [2][2]; // matriz 2x2

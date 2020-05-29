@@ -1,11 +1,12 @@
-package ex1;
+
+package exercicios;
 
 import java.util.Random;
 
-public class ex1 {
-    public static void main(String[] args) {
+public class Exercicios {
 
-        int [][] numerosAleatorios = new int [4][4];
+    public static void main(String[] args) {
+               int [][] numerosAleatorios = new int [4][4];
 
         Random numeroRandom = new Random(); // classe para gerar números aleatórios
 
@@ -44,4 +45,5 @@ public class ex1 {
         System.out.println("Linha = " + linha); // lembre que a contagem começa do zero
         System.out.println("Coluna = " + col);  // lembre que a contagem começa do zero
     }
+    
 }

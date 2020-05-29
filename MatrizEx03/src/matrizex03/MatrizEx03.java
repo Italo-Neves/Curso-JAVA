@@ -1,8 +1,8 @@
-package ex3;
+package matrizex03;
 
 import java.util.Random;
+public class MatrizEx03 {
 
-public class ex3 {
     public static void main(String[] args) {
         int [][] numerosAleatorios = new int [10][10];
 
@@ -46,4 +46,5 @@ public class ex3 {
         System.out.println("\nMaior valor da coluna 7: "+maiorC7);
         System.out.println("Menor valor da coluna 7: "+menorC7);
     }
+    
 }

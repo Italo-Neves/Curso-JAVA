@@ -1,11 +1,11 @@
-package ex4;
+
+package matrizex04;
 
 import java.util.Scanner;
 
-public class ex4 {
+public class MatrizEx04 {
     public static void main(String[] args) {
-
-        Scanner scan = new Scanner(System.in);
+         Scanner scan = new Scanner(System.in);
 
         int[][] numeros = new int[3][3];
 
@@ -37,7 +37,6 @@ public class ex4 {
 
         System.out.println("Quantidade de números pares: "+ qtdPares);
         System.out.println("Quantidade de números ímpares: "+ qtdImpares);
-
-
     }
+    
 }
