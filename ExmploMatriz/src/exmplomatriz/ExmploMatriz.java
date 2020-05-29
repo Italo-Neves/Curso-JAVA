@@ -1,21 +1,15 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package exmplomatriz;
-
-/**
- *
- * @author keldor
- */
 public class ExmploMatriz {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        int [][] numerosAleatorios = new int [2][2]; // matriz 2x2
+
+        for (int i=0; i<numerosAleatorios.length; i++){ // percorre as linhas
+            for (int j=0; j<numerosAleatorios[i].length; j++ ){ // percorre as colunas
+                System.out.print("posição [" + i + "," + j + "] "); // exibe a posição específica do vetor
+            }
+            System.out.println();
     }
     
+}
 }
