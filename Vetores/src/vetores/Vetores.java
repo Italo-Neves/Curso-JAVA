@@ -2,22 +2,15 @@
 package vetores;
 public class Vetores {
     public static void main(String[] args) {
-        
-        /*
-        int n[] = {3,2,8,7,5,4};
-        System.out.println("Total de casas de N"+n.length);// length mostra o indice dos vetores
-        for (int c =0;c<=n.length-1;c++) {
-            System.out.println("na posição "+c+" Encontramos o valoe "+n[c]+" ");
-        }*/
-    String mes[]={"Jan","Fev","Mar","Abr","Mai"
-            ,"Jun","Jul","Ago","Set","Out","Nov","Dez"};
-            int tot[]={31,28,31,30,31,30,31,31,30,31,30,31};
-            for (int c= 0;c<mes.length;c++) {
-                System.out.println("O mês de "+mes[c] +" tem "+tot[c]+" dias ao todo.");
-            }
-    
-    
-    
+      //O cochete pode ser posicionado na frente ou atraz do nome do vetor
+      
+      
+        int n[] = {3,2,8,7,4,5};// declarando o vetor com valores predefinidos
+        //int n2[] = new int [4]; //declarando um vetor vazio de 4 posições
+        System.out.println("Total da casas de N "+n.length);
+        for(int c=0; c<=n.length-1; c++){
+            System.out.println("Na posição "+c+" temos o valor:"+n[c]);//mostra n na posição c
+        }
     }
     
 }
