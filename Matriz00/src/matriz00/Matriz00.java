@@ -53,7 +53,7 @@ public class Matriz00 {
                 numeros2[i][j] = i + j *2;//preenchendo uma matriz
             }
         }
-        
+        //escrevendo os valores
          for(int i =0;i < numeros2.length;i++){
             for(int j =0;j < numeros2[i].length;j++){    
                 System.out.println("Numeros ["+i+"]"+"["+j+"]"+" = "+ numeros2[i][j]);     
