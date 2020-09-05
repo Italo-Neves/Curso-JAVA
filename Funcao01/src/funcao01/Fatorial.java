@@ -24,5 +24,4 @@ private  String formula= "";
     public String getFormula() {
         return formula;
     }
-
 }
