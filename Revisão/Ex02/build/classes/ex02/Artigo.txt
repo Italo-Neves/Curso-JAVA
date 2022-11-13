@@ -1,0 +1,19 @@
+"O nome Linux surgiu da mistura de Linus + Unix. Linus é o nome do criador do Linux, Linus Torvalds. E Unix, é o nome de um sistema operacional de grande porte, no qual contaremos sua história agora, para que você entenda melhor a do Linux.
+
+A origem do Unix tem ligação com o sistema operacional Multics, projetado na década de 1960. Esse projeto era realizado pelo Massachusets Institute of Technology (MIT), pela General Eletric (GE) e pelos laboratórios Bell (Bell Labs) e American Telephone na Telegraph (AT&T). A intenção era de que o Multics tivesse características de tempo compartilhado (vários usuários compartilhando os recursos de um único computador), sendo assim, o sistema mais arrojado da época. Em 1969, já exisita uma versão do Multics rodando num computador GE645.]
+
+Ken Thompsom era um pesquisador do Multics e trabalhava na Bell Labs. No entanto, a empresa se retirou do projeto tempos depois, mas ele continuou seus estudos no sistema. Desde então, sua idéia não era continuar no Multics original e sim criar algo menor, mas que conservasse as idéias básicas do sistema. A partir daí, começa a saga do sistema Unix. Brian Kernighan, também pesquisador da Bell Labs, foi quem deu esse nome.
+
+Em 1973, outro pesquisador da Bell Labs, Dennis Ritchie, rescreveu todo o sistema Unix numa linguagem de alto nível, chamada C, desenvolvida por ele mesmo. Por causa disso, o sistema passou a ter grande aceitação por usuários externos à Bell Labs.
+
+Entre 1977 e 1981, a AT&T, alterou o Unix, fazendo algumas mudanças particulares e lançou o System III. Em 1983, após mais uma série de modificações, foi lançado o conhecido Unix System IV, que passou a ser vendido. Até hoje esse sistema é usado no mercado, tornando-se o padrão internacional do Unix. Esse sistema é comercializado por empresas como IBM, HP, Sun, etc. O Unix, é um sistema operacional muito caro e é usado em computadores poderosos (como mainframes) por diversas multinacionais.
+
+Qual a relação entre o Unix e o Linux, ou melhor, entre o Unix e Linus Torvalds?
+
+Para responder essa pergunta, é necessário falar de outro sistema operacional, o Minix. O Minix é uma versão do Unix, porém, gratuita e com o código fonte disponível. Isso significa que qualquer programador experiente pode fazer alterações nele. Ele foi criado originalmente para uso educacional, para quem quisesse estudar o Unix "em casa". No entanto, vale citar que ele foi escrito do “zero” e apesar de ser uma versão do Unix, não contém nenhum código da AT&T e por isso pode ser distribuído gratuitamente.
+
+A partir daí, “entra em cena” Linus Torvalds. Ele era um estudante de Ciências da Computação da Universidade de Helsinki, na Filândia e em 1991, por hobby, Linus decidiu desenvolver um sistema mais poderoso que o Minix. Para divulgar sua idéia, ele enviou uma mensagem a um grupo pela Usenet (uma espécie de antecessor da Internet). A mensagem pode ser vista no final deste artigo. No mesmo ano, ele disponibilizou a versão do kernel (núcleo dos sistemas operacionais) 0.02 e continuou trabalhando até que em 1994 disponibilizou a versão 1.0. Até o momento em que este artigo estava sendo escrito, a versão atual era a 2.6.
+
+O Linux é um sistema operacional livre e é uma re-implementação das especificações POSIX (padronização da IEEE, Instituto de Engenharia Elétrica e Eletrônica) para sistemas com extensões System V e BSD. Isso signfica que o Linux é bem parecido com Unix, mas não vem do mesmo lugar e foi escrito de outra forma."
+
+Veja mais sobre "História do Linux" em: https://brasilescola.uol.com.br/informatica/historia-do-linux.htm
