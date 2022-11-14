@@ -1,13 +1,10 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package ex06;
 
-/**
- *
- * @author keldor
- */
 public class Converte {
     
+    public static void converte(int n){
+        Long l = Long.valueOf(n);
+        System.out.println(l);
+    }
 }
